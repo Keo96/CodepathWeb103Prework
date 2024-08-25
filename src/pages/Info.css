@@ -1,0 +1,83 @@
+/* Info.css */
+
+.info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.info-content {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info-content h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info-content .info-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.info-content h4 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.info-content p {
+    font-size: 16px;
+    color: #333;
+}
+
+.info_social-medias {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info_social-medias a img {
+    width: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.info_social-medias a img:hover {
+    transform: scale(1.1);
+}
+
+.info__edit-delete {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info__edit-delete img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.info__edit-delete img:hover {
+    transform: scale(1.1);
+}
